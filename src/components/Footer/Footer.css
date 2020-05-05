@@ -1,0 +1,24 @@
+.footer {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+}
+
+.footer--left {
+    width: 80%;
+    height: 100%;
+}
+
+.footer--right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 3vw
+}
+
+.footer img {
+    height: 4vh
+}

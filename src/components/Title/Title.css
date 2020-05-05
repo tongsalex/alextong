@@ -1,0 +1,23 @@
+.title {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.title b {
+    font: 10vh "Signerica";
+    color: white;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em white, 0 0 0.5em white, 0 0 0.1em white, 0 10px 3px #000;
+}
+
+.title b:hover {
+    color: red;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em red, 0 0 0.5em red, 0 0 0.1em red, 0 10px 3px #000;
+}
+
+.title span {
+    animation: blink linear infinite 3s;
+}
