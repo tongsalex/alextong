@@ -1,12 +1,14 @@
 import React from 'react';
 import './Title.css'
 
-const title = props => (
+const Title = props => (
     <section className="title">
-          <b>alex Ton
-            <span>g</span>
+          <b>al
+          <span className="title__span--ex">ex</span>
+          <span> </span>Ton
+            <span className="title__span--g">g</span>
           </b>
     </section>
 );
 
-export default title;
+export default Title;

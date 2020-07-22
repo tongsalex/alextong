@@ -1,0 +1,60 @@
+.projects {
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+
+    background-color: black;
+    
+    justify-content: space-evenly;
+
+    color: white;
+}
+
+.projects__container {
+    width: 40%;
+    height: 50%;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 1.5vw
+}
+
+.projects__title {
+    font-family: "Raleway";
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    opacity: 0;
+}
+
+.projects__container:hover {
+    background-image: none !important;
+    background-color: green;
+}
+
+.projects__container:hover .projects__title {
+    opacity: 1;
+}
+
+.projects__linkContainer {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects__link {
+    width: 3vw;
+    opacity: 0.7;
+}
+
+.projects__link:hover {
+    opacity: 1;
+}
+
+
+

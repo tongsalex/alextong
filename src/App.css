@@ -1,6 +1,20 @@
 @font-face {
-  font-family: 'Signerica';
+  font-family: 'SignericaFat';
   src: local('Signerica'), url(./fonts/Signerica_Fat.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SignericaMed';
+  src: local('Signerica'), url(./fonts/Signerica_Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'SignericaThin';
+  src: local('Signerica'), url(./fonts/Signerica_Thin.ttf) format('truetype');
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .App {
@@ -40,5 +54,25 @@
   92.5% {
     color: inherit;
     text-shadow: inherit;
+  }
+}
+
+@keyframes turnOn {
+  0% {
+    color: #000000;
+    text-shadow: none;
+  }
+  100% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+@keyframes opacityFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
