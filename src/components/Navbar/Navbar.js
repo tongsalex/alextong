@@ -8,7 +8,7 @@ const Navbar = props => (
                 <a href="/" className="navbar__logo">
                     <b><span>a</span><span>T</span></b>
                 </a>
-                <h1 className="navbar__subtitle">Software Engineer</h1>
+                <h1 className="navbar__subtitle">software engineer</h1>
             </div>
             <ul className="navbar__links">
                 <NavLink className="navbar__navLink" to="/projects">projects</NavLink>

@@ -9,10 +9,10 @@
     justify-content: space-evenly;
 
     color: white;
+    padding-top: 10vh;
 }
 
 .about__bio--container {
-    margin-top:8vh;
     width: 80%;
     display: flex;
     align-items: center;
@@ -28,18 +28,22 @@
 }
 
 .headshot {
-    border-radius: 50%;
+    border-radius: 5%;
     width: 25vw;
 }
 
 .about__h1 {
-    margin-top: 8vh;
+    margin: 5vh;
     font-family: "Raleway";
-    font-size: 2.5vw;
+    font-size: 1.5vw;
+    /* font-weight: 100; */
+
+    color: white;
+    text-shadow: 0 0 1em white, 0 0 0.5em white, 0 0 0.1em white, 0 10px 3px #000;
 }
 
 .skills {
-    margin-top: 3vh;
+    margin-top: 4vh;
     width: 90vw;
     display: flex;
     justify-content: space-evenly;
@@ -47,17 +51,21 @@
 }
 
 .skills__container {
-    width: 21vw;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
 }
 
 .skills__h2 {
     font-family: "Raleway";
     font-size: 1vw;
-    margin-top: 1.5vh;
-    margin-bottom: 1.5vh;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 .skills__picture {
-    width: 18vw;
-    height: 18vw;
+    width: 10vw;
+    height: 10vw;
 }

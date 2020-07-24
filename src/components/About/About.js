@@ -8,17 +8,17 @@ import ruby from '../../images/skills/ruby.png';
 import c from '../../images/skills/c++.png';
 import python from '../../images/skills/python.png';
 import java from '../../images/skills/java.png'
-import react from '../../images/skills/react.svg';
+import react from '../../images/skills/react.png';
 import postgresQL from '../../images/skills/postgresql.png';
 import heroku from '../../images/skills/heroku.png';
 import r from '../../images/skills/r.png';
-// import heroku from '../../images/skills/heroku.png';
 import rails from '../../images/skills/rails.png';
 import jquery from '../../images/skills/jquery.png';
 import css3 from '../../images/skills/css3.svg';
 
 const About = () => (
   <div className="about">
+    <h1 className="about__h1">ABOUT ME</h1>
     <section className="about__bio--container">
       <img src={headshot} alt='headshot' className="headshot" />
       <p className="about__bio">
@@ -32,7 +32,7 @@ const About = () => (
       </p>
     </section>
 
-    <h1 className="about__h1">Languages & Skills</h1>
+    <h1 className="about__h1">LANGUAGES & SKILLS</h1>
     <section className="skills">
       <div className="skills__container">
         <img src={javascript} alt='javascript' className="skills__picture" />

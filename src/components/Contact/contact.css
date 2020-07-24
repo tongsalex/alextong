@@ -1,13 +1,11 @@
 .contact {
     display: flex;
     width: 100vw;
-    height: 80vh;
+    height: 90vh;
 
     background-color: black;
     
-    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
 
     color: white;
 
@@ -21,21 +19,67 @@
     text-decoration: none;
 }
 
-.contact__links:hover {
-    color: purple;
+.contact__section--info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    box-sizing: border-box;
+    /* padding-left: 6vw; */
+
+    align-items: flex-end;
 }
 
-.contact__links--section {
+.contact__section--links {
+    width: 50%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact__section--links div {
     width: 40%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-.contact__links--section img {
-    height: 4vw;
+.contact__section--links img {
+    height: 2.5vw;
     opacity: .3;
 }
 
-.contact__links--section img:hover {
+.contact__section--links img:hover {
     opacity: 1;
+}
+
+.contact--phone {
+    color: #7FDBFF;
+    text-shadow: 0 0 0.5em #7FDBFF, 0 0 0.1em #7FDBFF, 0 10px 3px #000;
+}
+
+.contact--email {
+    color: #FF851B;
+    text-shadow: 0 0 0.5em #FF851B, 0 0 0.1em #FF851B, 0 10px 3px #000;
+}
+
+.contact--location {
+    color: #01FF70;
+    text-shadow: 0 0 0.5em #01FF70, 0 0 0.1em #01FF70, 0 10px 3px #000;
+}
+
+.contact--email:hover {
+    color: red;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em red, 0 0 0.5em red, 0 0 0.1em red, 0 10px 3px #000;
+}
+
+.contact--phone:hover {
+    color: red;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em red, 0 0 0.5em red, 0 0 0.1em red, 0 10px 3px #000;
+}
+
+.contact--location:hover {
+    color: red;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em red, 0 0 0.5em red, 0 0 0.1em red, 0 10px 3px #000;
 }

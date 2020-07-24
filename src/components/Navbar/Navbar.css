@@ -1,9 +1,10 @@
 .navbar {
     width: 100vw;
     height: 10vh;
+    position: fixed;
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .navbar__logo__container {
@@ -23,8 +24,8 @@
 
 .navbar__logo b{
     font: 3vh "SignericaFat";
-    color: white;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em white, 0 0 0.5em white, 0 0 0.1em white, 0 10px 3px #000;
+    color: #ffaa01;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ffaa01, 0 0 0.5em #ffaa01, 0 0 0.1em #ffaa01, 0 10px 3px #000;
 
     opacity: 0;
 
@@ -39,10 +40,13 @@
 
 .navbar__subtitle {
     font-family: "Raleway";
-    font-size: 0.9vw;
+    font-size: 1vw;
+    /* font-size: 2vw; */
     opacity: 0;
     animation: opacityFade normal linear 1s forwards;
     animation-delay: 2s;
+
+    font-weight: 400;
 }
 
 .navbar__subtitle:hover {
@@ -66,8 +70,10 @@
     color: white;
 
     font-family: "Raleway";
-    font-size: 0.9vw;
+    font-size: 1vw;
     text-transform: lowercase;
+
+    font-weight: 400;
 }
 
 .navbar__navLink:hover {

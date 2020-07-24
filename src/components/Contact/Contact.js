@@ -8,22 +8,30 @@ import medium from '../../images/medium.png'
 
 const Contact = props => (
   <div className="contact">
-    <a className="contact__links" href="tel:917-999-6588">call me at (917) 999 6588</a>
-    <a className="contact__links" href = "mailto: tongsalex@gmail.com">email me at tongsalex@gmail.com</a>
-    <h1>find me in new york, ny</h1>
-    <section className="contact__links--section">
-      <a href='http://www.github.com/tongsalex'>
+    <section className="contact__section--info">
+      <a className="contact__links" href="tel:917-999-6588">call me at <span className="contact--phone">(917) 999 6588</span></a>
+      <a className="contact__links" href = "mailto: tongsalex@gmail.com">email me at <span className="contact--email">tongsalex@gmail.com</span></a>
+      <h1>find me in <span className="contact--location">new york, ny</span></h1>
+    </section>
+
+    <section className="contact__section--links">
+      <div>
+        <a href='http://www.github.com/tongsalex'>
           <img src={github} alt='github' className="button hover-shadow" />
         </a>
         <a href='http://www.linkedin.com/in/tongsalex'>
           <img src={linkedin} alt='linkedin' />
         </a>
+      </div>
+
+      <div>
         <a href='http://wlth.fr/1R8MPJy'>
           <img src={angellist} alt='angellist' />
         </a>
         <a href='http://soundcloud.com/tongsalex'>
           <img src={medium} alt='medium' />
         </a>
+      </div>
     </section>
   </div>
 );
