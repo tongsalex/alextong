@@ -58,7 +58,6 @@
 
 .projects__link {
     height: 3vh;
-    /* width: 3vw; */
     opacity: 0.7;
 }
 
@@ -70,12 +69,12 @@
     width: 100%;
     font-family: "Raleway";
     font-size: 1.5vw;
-    font-weight: 300;
+    font-weight: 200;
     display: flex;
     justify-content: center;
 
-    color: white;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em white, 0 0 0.5em white, 0 0 0.1em white, 0 10px 3px #000;
+    color: #F148FB;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #F148FB, 0 0 0.5em #F148FB, 0 0 0.1em #F148FB, 0 10px 3px #000;
 }
 
 .projects__divider--collab {

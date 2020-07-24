@@ -7,13 +7,11 @@
     align-items: center;
 }
 
-.title b {
+.title__b {
     font: 10vh "SignericaFat";
-    
-
-    color: #ffaa01;
+    color: #DAA520;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ffaa01, 0 0 0.5em #ffaa01, 0 0 0.1em #ffaa01, 0 10px 3px #000;
-    animation: turnOn ease 2s;
+    animation: turnOn ease 2s; 
 }
 
 /* .title b:hover {
@@ -27,10 +25,16 @@
 }
 
 .title__span--g {
-    animation: blink linear infinite 2s;
+    /* -webkit-animation: blink linear normal 3s;
+    -webkit-animation-iteration-count: 3; */
+
+    animation: blink linear normal 2s;
+    animation-iteration-count: 3;
 }
 
 .title b:hover {
-    color: #ff000d;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff000d, 0 0 0.5em #ff000d, 0 0 0.1em #ff000d, 0 10px 3px #000;
+    color: #DAA520;
+    text-shadow: none;
+    /* color: #ff000d;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff000d, 0 0 0.5em #ff000d, 0 0 0.1em #ff000d, 0 10px 3px #000; */
 }

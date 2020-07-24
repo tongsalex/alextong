@@ -24,7 +24,7 @@
 
 .navbar__logo b{
     font: 3vh "SignericaFat";
-    color: #ffaa01;
+    color: #DAA520;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ffaa01, 0 0 0.5em #ffaa01, 0 0 0.1em #ffaa01, 0 10px 3px #000;
 
     opacity: 0;
@@ -34,8 +34,10 @@
 }
 
 .navbar__logo b:hover {
-    color: #F148FB;
-    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #F148FB, 0 0 0.5em #F148FB, 0 0 0.1em #F148FB, 0 10px 3px #000;
+    color: #DAA520;
+    text-shadow: none;
+    /* color: #F148FB;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #F148FB, 0 0 0.5em #F148FB, 0 0 0.1em #F148FB, 0 10px 3px #000; */
 }
 
 .navbar__subtitle {
@@ -50,6 +52,7 @@
 }
 
 .navbar__subtitle:hover {
+    
     color: #F148FB;
     text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #F148FB, 0 0 0.5em #F148FB, 0 0 0.1em #F148FB, 0 10px 3px #000;
 }

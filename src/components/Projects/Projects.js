@@ -1,5 +1,4 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
 import './projects.css';
 
 // logos
@@ -30,9 +29,11 @@ const Projects = () => (
         <a href='http://www.github.com/tongsalex/noteworthy' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/noteworthy">
+
+        <a href='http://www.tongsalex.com/noteworthy' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
+
       </div>
     </div>
 
@@ -42,9 +43,11 @@ const Projects = () => (
         <a href='http://www.github.com/tongsalex/kollectiv' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/kollectiv">
+
+        <a href='http://www.tongsalex.com/kollectiv' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
+        
       </div>
     </div>
     
@@ -54,9 +57,9 @@ const Projects = () => (
         <a href='http://www.github.com/tongsalex/bargain' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/barGain">
+        <a href='http://www.tongsalex.com/bargain' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
       </div>
     </div>
 
@@ -66,9 +69,9 @@ const Projects = () => (
         <a href='http://www.github.com/tongsalex/constellations' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/constellations">
+        <a href='http://www.tongsalex.com/constellations' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
       </div>
     </div>
 
@@ -78,9 +81,9 @@ const Projects = () => (
         <a href='http://www.github.com/tongsalex/RoadToRock' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/roadToRock">
+        <a href='http://www.tongsalex.com/roadtorock' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
       </div>
     </div>
 
@@ -92,9 +95,9 @@ const Projects = () => (
         <a href='http://www.github.com/tongsalex/vitaldb' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/vitaldb">
+        <a href='http://vital-db.herokuapp.com' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
       </div>
     </div>
 
@@ -104,9 +107,10 @@ const Projects = () => (
         <a href='http://www.github.com/tongsalex/pbandjamd' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/pbandjamd">
+
+        <a href='http://www.tongsalex.com/pbandjamd' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
       </div>
     </div>
 
@@ -118,9 +122,9 @@ const Projects = () => (
         <a href='https://github.com/thomas-westfall/vpay' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <NavLink className="projects__navLink" to="/vpay">
+        <a href='http://www.tongsalex.com/vpay' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
-        </NavLink>
+        </a>
       </div>
     </div>
 

@@ -12,6 +12,7 @@
     font-family: "Raleway";
     font-size: 1.5vw;
     line-height: 150%;
+    font-weight: 100;
 }
 
 .contact__links {
@@ -57,16 +58,23 @@
 .contact--phone {
     color: #7FDBFF;
     text-shadow: 0 0 0.5em #7FDBFF, 0 0 0.1em #7FDBFF, 0 10px 3px #000;
+    font-weight: 300;
 }
 
 .contact--email {
     color: #FF851B;
     text-shadow: 0 0 0.5em #FF851B, 0 0 0.1em #FF851B, 0 10px 3px #000;
+    font-weight: 300;
 }
 
 .contact--location {
     color: #01FF70;
     text-shadow: 0 0 0.5em #01FF70, 0 0 0.1em #01FF70, 0 10px 3px #000;
+    font-weight: 300;
+}
+
+.contact--blink {
+    animation: blink linear infinite 2s;
 }
 
 .contact--email:hover {

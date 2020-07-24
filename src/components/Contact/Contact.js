@@ -11,7 +11,7 @@ const Contact = props => (
     <section className="contact__section--info">
       <a className="contact__links" href="tel:917-999-6588">call me at <span className="contact--phone">(917) 999 6588</span></a>
       <a className="contact__links" href = "mailto: tongsalex@gmail.com">email me at <span className="contact--email">tongsalex@gmail.com</span></a>
-      <h1>find me in <span className="contact--location">new york, ny</span></h1>
+      <h1>find me in <span className="contact--location">new y<span className="contact--blink">or</span>k, ny</span></h1>
     </section>
 
     <section className="contact__section--links">

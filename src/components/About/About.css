@@ -36,10 +36,10 @@
     margin: 5vh;
     font-family: "Raleway";
     font-size: 1.5vw;
-    /* font-weight: 100; */
+    font-weight: 200;
 
-    color: white;
-    text-shadow: 0 0 1em white, 0 0 0.5em white, 0 0 0.1em white, 0 10px 3px #000;
+    color: #F148FB;
+    text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #F148FB, 0 0 0.5em #F148FB, 0 0 0.1em #F148FB, 0 10px 3px #000;
 }
 
 .skills {
@@ -68,4 +68,5 @@
 .skills__picture {
     width: 10vw;
     height: 10vw;
+    border-radius: 3%;
 }
