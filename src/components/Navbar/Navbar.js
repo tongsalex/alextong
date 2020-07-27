@@ -13,7 +13,7 @@ const Navbar = props => (
             <ul className="navbar__links">
                 <NavLink className="navbar__navLink" to="/projects">projects</NavLink>
                 <NavLink className="navbar__navLink" to="/about">about</NavLink>
-                <a href="https://drive.google.com/file/d/1aHdNKavYJBo7Bhip8FfhLRI-XzzR0hOe/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="navbar__navLink" >resume</a>
+                <a href="https://drive.google.com/file/d/1B-R1ZN5WhsOxAuMDYCPjgw_qgpixnzkS/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="navbar__navLink" >resume</a>
                 <NavLink className="navbar__navLink" to="/contact">contact</NavLink>
             </ul>
     </header>

@@ -21,10 +21,10 @@ const Footer = props => (
       <a href='http://www.linkedin.com/in/tongsalex'>
         <img src={linkedin} alt='linkedin' />
       </a>
-      <a href='http://soundcloud.com/tongsalex'>
+      <a href='http://angel.co/tongsalex'>
         <img src={angellist} alt='angellist' />
       </a>
-      <a href='http://soundcloud.com/tongsalex'>
+      <a href='http://medium.com/@tongsalex'>
         <img src={medium} alt='medium' />
       </a>
       <a href='http://wlth.fr/1R8MPJy'>

@@ -6,10 +6,10 @@ import github from '../../images/github.png';
 import live from '../../images/live.png';
 
 // projects
-import noteworthy from '../../images/projects/noteworthy2.png';
+import noteworthy from '../../images/projects/noteworthy.gif';
 import kollectiv from '../../images/projects/kollectiv.png';
 import bargain from '../../images/projects/bargain.png';
-import constellations from '../../images/projects/constellations.png';
+import constellations from '../../images/projects/constellations.gif';
 import roadtorock from '../../images/projects/roadtorock.png';
 
 // group projects

@@ -25,10 +25,10 @@ const Contact = props => (
       </div>
 
       <div>
-        <a href='http://wlth.fr/1R8MPJy'>
+        <a href='http://angel.co/tongsalex'>
           <img src={angellist} alt='angellist' />
         </a>
-        <a href='http://soundcloud.com/tongsalex'>
+        <a href='http://medium.com/@tongsalex'>
           <img src={medium} alt='medium' />
         </a>
       </div>
