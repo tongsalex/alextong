@@ -15,10 +15,10 @@ const Footer = props => (
     </div>
 
     <div className="footer--right">
-      <a href='http://www.github.com/tongsalex'>
+      <a href='http://github.com/tongsalex'>
         <img src={github} alt='github' className="button hover-shadow" />
       </a>
-      <a href='http://www.linkedin.com/in/tongsalex'>
+      <a href='http://linkedin.com/in/tongsalex'>
         <img src={linkedin} alt='linkedin' />
       </a>
       <a href='http://angel.co/tongsalex'>
