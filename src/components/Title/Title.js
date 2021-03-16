@@ -8,6 +8,7 @@ const Title = props => (
             <span> </span>Ton
             <span className="title__span--g">g</span>
           </b>
+
     </section>
 );
 

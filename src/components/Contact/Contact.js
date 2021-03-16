@@ -16,19 +16,19 @@ const Contact = props => (
 
     <section className="contact__section--links">
       <div>
-        <a href='http://www.github.com/tongsalex'>
+        <a href='http://www.github.com/tongsalex' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="button hover-shadow" />
         </a>
-        <a href='http://www.linkedin.com/in/tongsalex'>
+        <a href='http://www.linkedin.com/in/tongsalex' target="_blank" rel="noopener noreferrer">
           <img src={linkedin} alt='linkedin' />
         </a>
       </div>
 
       <div>
-        <a href='http://angel.co/tongsalex'>
+        <a href='http://angel.co/tongsalex' target="_blank" rel="noopener noreferrer">
           <img src={angellist} alt='angellist' />
         </a>
-        <a href='http://medium.com/@tongsalex'>
+        <a href='http://medium.com/@tongsalex' target="_blank" rel="noopener noreferrer">
           <img src={medium} alt='medium' />
         </a>
       </div>

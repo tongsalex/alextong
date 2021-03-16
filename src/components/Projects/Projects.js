@@ -8,6 +8,7 @@ import live from '../../images/live.png';
 // projects
 import noteworthy from '../../images/projects/noteworthy.png';
 import kollectiv from '../../images/projects/kollectiv.png';
+import mazeSolver from '../../images/projects/mazeSolver.png';
 import bargain from '../../images/projects/bargain.png';
 import constellations from '../../images/projects/constellations.png';
 import roadtorock from '../../images/projects/roadtorock.png';
@@ -52,17 +53,19 @@ const Projects = () => (
         
       </div>
     </div>
-    
-    <div className="projects__container projects__container--noteworthy" style={{ backgroundImage:`url(${bargain})`}}>
-      <h1 className="projects__title">BarGain</h1>
-      <h2 className="projects__description">A full-stack marketplace platform for users to buy and sell items based on their geolocation, built using the Google Maps API, MongoDB, Express, Node, EJS, HTML, CSS and bcryptjs for user authentication.</h2>
+
+    <div className="projects__container projects__container--noteworthy" style={{ backgroundImage:`url(${mazeSolver})`}}>
+      <h1 className="projects__title">Maze Solver</h1>
+      <h2 className="projects__description">An algorithm maze visualizer built using vanilla JavaScript, CSS & HTML.</h2>
       <div className="projects__linkContainer">
-        <a href='http://www.github.com/tongsalex/bargain' target="_blank" rel="noopener noreferrer">
+        <a href='https://github.com/tongsalex/mazeSolver' target="_blank" rel="noopener noreferrer">
           <img src={github} alt='github' className="projects__link" />
         </a>
-        <a href='http://www.tongsalex.com/bargain' target="_blank" rel="noopener noreferrer">
+
+        <a href='https://tongsalex.github.io/mazeSolver/' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
         </a>
+
       </div>
     </div>
 
@@ -74,6 +77,19 @@ const Projects = () => (
           <img src={github} alt='github' className="projects__link" />
         </a>
         <a href='http://www.tongsalex.com/constellations' target="_blank" rel="noopener noreferrer">
+          <img src={live} alt='live' className="projects__link" />
+        </a>
+      </div>
+    </div>
+
+    <div className="projects__container projects__container--noteworthy" style={{ backgroundImage:`url(${bargain})`}}>
+      <h1 className="projects__title">BarGain</h1>
+      <h2 className="projects__description">A full-stack marketplace platform for users to buy and sell items based on their geolocation, built using the Google Maps API, MongoDB, Express, Node, EJS, HTML, CSS and bcryptjs for user authentication.</h2>
+      <div className="projects__linkContainer">
+        <a href='http://www.github.com/tongsalex/bargain' target="_blank" rel="noopener noreferrer">
+          <img src={github} alt='github' className="projects__link" />
+        </a>
+        <a href='http://www.tongsalex.com/bargain' target="_blank" rel="noopener noreferrer">
           <img src={live} alt='live' className="projects__link" />
         </a>
       </div>
